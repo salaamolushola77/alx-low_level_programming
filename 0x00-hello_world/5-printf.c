@@ -4,8 +4,8 @@
  *
  * return:0 if no errors, return non zeroif errors
  */
-int main()
+int main(void)
 {
-	printf("with properr grammar, but the outcome is a piece of art,/n");
+	printf("with properr grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
