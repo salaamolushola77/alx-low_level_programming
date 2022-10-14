@@ -1,6 +1,11 @@
 #include <stdio.h>
+/**
+ * main-entry point for the program
+ *
+ * return:0 if no errors, return non zeroif errors
+ */
 int main()
 {
-	printf("with proper grammar, but the outcome is apiece of art,\n");
+	printf("with properr grammar, but the outcome is a piece of art,/n");
 	return (0);
 }
