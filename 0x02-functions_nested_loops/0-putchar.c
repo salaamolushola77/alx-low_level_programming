@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * main -Entry point
@@ -7,14 +7,14 @@ nclude "main.h"
 
 int main(void)
 {
-	char x[8] = {'_','p','u','t','c','h','a'.'r')
+	char x[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'}
 	int i;
 
 	for (i = 0; i < 8; i++)
 	{
 	_putchar(x[i]);
 	}
-	_putchar('\n');
+	_putchar("\n")
 
 	return (0);
 }
