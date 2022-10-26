@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * main -Entry point
- * Return: Always 0 (Success)
+ * main - Prints Holbeerton as a message
+ *
+ * Return: always 0 (Success)
  */
-
 int main(void)
 {
-	char x[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'}
-	int i;
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count, sz;
 
-	for (i = 0; i < 8; i++)
+	sz = sizeof(str)/sizeof(int);
+	for (count = o; count < sz; count++)
 	{
-	_putchar(x[i]);
+		_putchar(str[count]);
 	}
-	_putchar("\n")
-
+	_putchar("\n");
 	return (0);
 }
